@@ -1,0 +1,18 @@
+https://docs.conda.io/en/latest/
+https://www.anaconda.com/
+https://docs.conda.io/en/latest/miniconda.html
+
+https://anaconda.org/anaconda/repo
+conda update conda
+conda update python
+conda list
+conda search numpy
+conda install numpy
+conda remove --name numpy
+
+https://anaconda.org/conda-forge/repo
+
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
